@@ -142,9 +142,9 @@ console.log(micromatch(['foo', 'bar', 'baz'], ['f*', '*z'])); //=> ['foo', 'baz'
 
 **Params**
 
-* **{String|Array<string>}**: list List of strings to match.
-* **{String|Array<string>}**: patterns One or more glob patterns to use for matching.
-* **{Object}**: options See available [options](#options)
+* `list` **{String|Array<string>}**: List of strings to match.
+* `patterns` **{String|Array<string>}**: One or more glob patterns to use for matching.
+* `options` **{Object}**: See available [options](#options)
 * `returns` **{Array}**: Returns an array of matches
 
 **Example**
@@ -184,9 +184,9 @@ Returns true if **any** of the given glob `patterns` match the specified `string
 
 **Params**
 
-* **{String}**: str The string to test.
-* **{String|Array}**: patterns One or more glob patterns to use for matching.
-* **{Object}**: See available [options](#options).
+* `str` **{String}**: The string to test.
+* `patterns` **{String|Array}**: One or more glob patterns to use for matching.
+* `options` **{Object}**: See available [options](#options).
 * `returns` **{Boolean}**: Returns true if any patterns match `str`
 
 **Example**
